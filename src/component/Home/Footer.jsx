@@ -65,12 +65,12 @@ export default function ContactFooter() {
               <h3 className="text-lg font-semibold mb-4">NAVIGATION</h3>
               <div className="space-y-2">
                 {[
-                  { name: "Creator", color: "text-gray-300",path: "/" },
+                  { name: "Creator", color: "text-[#FF0000]",path: "/" },
                   { name: "Traveler", color: "text-[#FF0000]", path: "/traveller" },
-                  { name: "Partner", color: "text-gray-300", path: "/partner" },
-                  { name: "Careers", color: "text-gray-300", path: "/career"},
-                  { name: "Privacy Policy", color: "text-gray-300", path: "/policy"},
-                  { name: "Terms of service", color: "text-gray-300", path: "/terms-services"},
+                  { name: "Partner", color: "text-[#FF0000]", path: "/partner" },
+                  { name: "Careers", color: "text-[#FF0000]", path: "/career"},
+                  { name: "Privacy Policy", color: "text-[#FF0000]", path: "/policy"},
+                  { name: "Terms of service", color: "text-[#FF0000]", path: "/terms-services"},
                 ].map((item) => (
                   <Link
                     key={item.name}
