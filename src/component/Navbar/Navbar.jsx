@@ -36,13 +36,13 @@ const Navbar = () => {
 
   return (
     <div className="bg-[#1A1A1A] text-white relative">
-      <header className="container mx-auto py-4 lg:py-6">
+      <header className="container mx-auto py-4 lg:py-6 md:px-20">
         <nav className="flex items-center justify-between px-4">
           <Link 
             to="/" 
             className="text-[#FF0000] text-2xl md:text-3xl font-bold relative z-20"
           >
-            Gumo
+            <img src='/white_logo.png' alt='' className='w-56 '/>
           </Link>
 
           {/* Mobile Menu Button */}
